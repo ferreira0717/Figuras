@@ -18,4 +18,10 @@ public class Circulo extends Figura {
         return circunferencia;
     }
 
+    @Override
+    public double getpollos() {
+        return super.getpollos(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+     
 }
