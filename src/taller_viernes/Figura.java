@@ -6,7 +6,7 @@ package taller_viernes;
  */
 public class Figura {
 
-    protected double radio, diametro, circunferencia;
+    protected double radio, diametro, circunferencia,  pollos;
 
     public void setRadio(double r) {
         radio = r;
@@ -23,5 +23,9 @@ public class Figura {
     public double getCircunferencia() {
         return circunferencia;
     }
-
+    public double getpollos(){
+        
+        return pollos;
+    }
+    
 }
